@@ -11,3 +11,6 @@ node_js: stable
 
 install:
   - npm install -D
+
+script:
+  - npm eslint
